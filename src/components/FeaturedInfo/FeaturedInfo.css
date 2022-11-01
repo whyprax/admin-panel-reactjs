@@ -1,0 +1,49 @@
+.featured {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.featured-item {
+  padding: 3rem;
+  padding-left: 2rem;
+  padding-top: 1.75rem;
+  width: 16rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 12px;
+}
+
+.featured-title {
+  font-size: 1.65rem;
+  font-weight: bold;
+}
+
+.featured-money-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  margin: 1.25rem 0 1.75rem;
+}
+
+.featured-money {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.featured-money-rate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.arrow-down {
+  font-weight: bold;
+  color: red;
+}
+
+.featured-subtitle {
+  font-weight: 400;
+  color: grey;
+}

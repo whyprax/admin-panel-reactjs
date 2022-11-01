@@ -1,0 +1,7 @@
+.charts {
+  flex: 4;
+  padding: 1rem 2rem;
+  padding-top: 0.75rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 12px;
+}
