@@ -1,0 +1,57 @@
+.topbar {
+  display: flex;
+  padding: 1rem 2rem;
+  padding-top: 0.75rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+}
+
+.topbar-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: darkblue;
+  cursor: pointer;
+}
+
+.topbar-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topbar-icon {
+  margin-right: 0.5rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.topbar-tooltip {
+  position: absolute;
+  top: -10px;
+  right: 0px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  background-color: red;
+  color: white;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+}
+
+.topbar-user > img {
+  width: 40px;
+  border-radius: 100%;
+  cursor: pointer;
+}
