@@ -1,0 +1,22 @@
+.userlist {
+  flex: 4;
+  width: 80%;
+}
+
+.userlist-User {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.userlist-img {
+  width: 25px;
+  height: 25px;
+  border-radius: 100px;
+  object-fit: contain;
+  margin-right: 0.5rem;
+}
+
+.datagrid {
+  width: 1000px;
+}
